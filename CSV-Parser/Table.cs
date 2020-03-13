@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSV_Parser
 {
-    class Table
+    class Table : CSVableAbstraction
     {
         public int ID { get; set; }
         public string Region { get; set; }
